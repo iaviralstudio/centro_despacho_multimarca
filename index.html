@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centro de Despacho Multimarca 24/7</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="main-header">
+      <div class="header-content">
+        <h1 class="site-title">Centro de Despacho Multimarca</h1>
+        <!-- Cart summary displayed on every page -->
+        <button id="cart-button" class="cart-btn" aria-label="Ver carrito">
+          🛒 <span id="cart-count">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Brand selection view: users choose which brand to explore -->
+      <section id="brand-selection" class="view">
+        <h2>Elige tu marca favorita</h2>
+        <div id="brand-grid" class="brand-grid">
+          <!-- Brand cards are injected via JavaScript -->
+        </div>
+      </section>
+
+      <!-- Brand dashboard: shown when a specific brand is selected -->
+      <section id="brand-dashboard" class="view hidden">
+        <button class="back-btn" id="back-to-brands">← Volver a marcas</button>
+        <h2 id="dashboard-title"></h2>
+        <div id="menu-container" class="menu-container">
+          <!-- Menu items are rendered here -->
+        </div>
+        <!-- Cross-promotion combos: visible within each brand dashboard -->
+        <div id="cross-promos" class="cross-promos">
+          <h3>Promociones cruzadas</h3>
+          <div id="promo-container" class="promo-container">
+            <!-- Cross promotion cards injected via JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Cart view -->
+      <section id="cart-view" class="view hidden">
+        <button class="back-btn" id="back-to-dashboard">← Volver</button>
+        <h2>Tu pedido</h2>
+        <div id="cart-items" class="cart-items">
+          <!-- Items added to cart will appear here -->
+        </div>
+        <div id="cart-summary" class="cart-summary">
+          <h3>Resumen</h3>
+          <p id="cart-total">Total: $0</p>
+          <label for="delivery-type">Tipo de entrega:</label>
+          <select id="delivery-type">
+            <option value="delivery">Domicilio</option>
+            <option value="pickup">Recoger en el local</option>
+          </select>
+          <button id="checkout-button" class="checkout-btn">Finalizar pedido</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <p>© 2025 Centro de Despacho Multimarca - Todos los derechos reservados</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
