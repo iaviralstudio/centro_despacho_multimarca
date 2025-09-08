@@ -1,0 +1,242 @@
+{
+    "Urban Sushi": {
+        "platos": [
+            [
+                "Sashimi Especial de Atún Rojo",
+                "$49,000"
+            ],
+            [
+                "Niguiris de Salmón Flameado",
+                "$42,000"
+            ],
+            [
+                "Roll de Langostino Crocante",
+                "$54,000"
+            ],
+            [
+                "Roll Tropical de Mango y Cangrejo",
+                "$38,000"
+            ],
+            [
+                "Roll Spicy Tuna Medellín",
+                "$48,000"
+            ],
+            [
+                "Gunkan de Ikura y Aguacate",
+                "$44,000"
+            ],
+            [
+                "Tataki de Salmón con Soya Dulce",
+                "$51,000"
+            ],
+            [
+                "Sushi Bowl de Atún y Quinoa",
+                "$45,000"
+            ]
+        ],
+        "acompañamientos": [
+            [
+                "Edamames con Sal Marina",
+                "$13,000"
+            ],
+            [
+                "Gyosas de Cerdo Crocantes",
+                "$15,000"
+            ],
+            [
+                "Wakame con Sésamo",
+                "$12,000"
+            ],
+            [
+                "Ensalada de Pepino y Mango",
+                "$11,000"
+            ],
+            [
+                "Sopa Miso con Shiitake",
+                "$10,000"
+            ],
+            [
+                "Tempura Mixta de Verduras",
+                "$16,000"
+            ],
+            [
+                "Arroz Yakimeshi",
+                "$14,000"
+            ],
+            [
+                "Takoyaki de Pulpo",
+                "$18,000"
+            ]
+        ],
+        "postres": [
+            [
+                "Mochis Artesanales",
+                "$17,000"
+            ],
+            [
+                "Tiramisú de Té Verde",
+                "$19,000"
+            ]
+        ]
+    },
+    "Smash & Crispy": {
+        "platos": [
+            [
+                "Smash Burger Doble Queso Maturado",
+                "$39,000"
+            ],
+            [
+                "Crispy Chicken Burger con Sriracha Mayo",
+                "$37,000"
+            ],
+            [
+                "Trufa Smash Burger",
+                "$54,000"
+            ],
+            [
+                "BBQ San Luis Ribs",
+                "$60,000"
+            ],
+            [
+                "Burger de Costilla Ahumada",
+                "$48,000"
+            ],
+            [
+                "Doble Smash con Pan Brioche",
+                "$42,000"
+            ],
+            [
+                "Bacon Cheddar Burger",
+                "$44,000"
+            ],
+            [
+                "Crispy Onion Rings Burger",
+                "$40,000"
+            ]
+        ],
+        "acompañamientos": [
+            [
+                "Papas Trufadas",
+                "$15,000"
+            ],
+            [
+                "Aros de Cebolla Artesanales",
+                "$14,000"
+            ],
+            [
+                "Mac & Cheese con Tocino",
+                "$16,000"
+            ],
+            [
+                "Mazorca Dulce Parrillada",
+                "$13,000"
+            ],
+            [
+                "Ensalada César con Pollo",
+                "$18,000"
+            ],
+            [
+                "Coleslaw Cremoso",
+                "$10,000"
+            ],
+            [
+                "Papas Cajún",
+                "$13,000"
+            ],
+            [
+                "Croquetas de Jamón Ibérico",
+                "$17,000"
+            ]
+        ],
+        "postres": [
+            [
+                "Cheesecake de Nutella",
+                "$20,000"
+            ],
+            [
+                "Helado Artesanal con Galleta Caliente",
+                "$19,000"
+            ]
+        ]
+    },
+    "Green Bowls & Power": {
+        "platos": [
+            [
+                "Bowl Thai de Pollo y Cúrcuma",
+                "$39,000"
+            ],
+            [
+                "Bowl Vietnamita Vegano con Tofu",
+                "$35,000"
+            ],
+            [
+                "Poke Bowl con Atún y Mango",
+                "$44,000"
+            ],
+            [
+                "Bowl de Hongos y Castañas",
+                "$42,000"
+            ],
+            [
+                "Bowl Mediterráneo de Falafel",
+                "$38,000"
+            ],
+            [
+                "Bowl Koreano Bulgogi Vegano",
+                "$40,000"
+            ],
+            [
+                "Arroz Frito con Tofu y Edamame",
+                "$37,000"
+            ],
+            [
+                "Bowl de Lentejas y Aguacate",
+                "$33,000"
+            ]
+        ],
+        "acompañamientos": [
+            [
+                "Chips de Yuca Artesanales",
+                "$12,000"
+            ],
+            [
+                "Ensalada de Quinoa y Arándanos",
+                "$14,000"
+            ],
+            [
+                "Kimchi Casero",
+                "$10,000"
+            ],
+            [
+                "Arepitas de Chía y Linaza",
+                "$9,000"
+            ],
+            [
+                "Pan de Masa Madre con Ajo Asado",
+                "$11,000"
+            ],
+            [
+                "Hummus de Remolacha",
+                "$13,000"
+            ],
+            [
+                "Pakoras de Vegetales",
+                "$15,000"
+            ],
+            [
+                "Bebida Kombucha Natural",
+                "$12,000"
+            ]
+        ],
+        "postres": [
+            [
+                "Tarta de Uchuva y Almendras",
+                "$18,000"
+            ],
+            [
+                "Cremoso de Chontaduro",
+                "$17,000"
+            ]
+        ]
+    }
+}
