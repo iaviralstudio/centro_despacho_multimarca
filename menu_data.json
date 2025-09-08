@@ -1,0 +1,74 @@
+{
+  "urbanSushi": {
+    "nombre": "Urban Sushi",
+    "platos": [
+      {
+        "nombre": "Roll de Salmón Trufado",
+        "precio": 49000,
+        "descripcion": "Salmón fresco con mayo trufada y topping crocante."
+      }
+    ],
+    "acompañamientos": [
+      {
+        "nombre": "Edamames al vapor",
+        "precio": 12000,
+        "descripcion": "Con sal marina y toque de limón."
+      }
+    ],
+    "postres": [
+      {
+        "nombre": "Helado de té verde",
+        "precio": 15000,
+        "descripcion": "Tradicional japonés cremoso."
+      }
+    ]
+  },
+  "smashBurgers": {
+    "nombre": "Smash & Crispy Burgers",
+    "platos": [
+      {
+        "nombre": "Smash BBQ Bacon",
+        "precio": 36000,
+        "descripcion": "Doble carne, tocineta, cebolla caramelizada."
+      }
+    ],
+    "acompañamientos": [
+      {
+        "nombre": "Papas con queso cheddar",
+        "precio": 10000,
+        "descripcion": "Con trozos de tocineta crispy."
+      }
+    ],
+    "postres": [
+      {
+        "nombre": "Brownie con helado",
+        "precio": 16000,
+        "descripcion": "Clásico americano con nueces."
+      }
+    ]
+  },
+  "greenBowls": {
+    "nombre": "Green Bowls & Power",
+    "platos": [
+      {
+        "nombre": "Bowl Asiático de Tofu",
+        "precio": 42000,
+        "descripcion": "Arroz de coco, vegetales salteados, tofu glaseado."
+      }
+    ],
+    "acompañamientos": [
+      {
+        "nombre": "Gyozas de vegetales",
+        "precio": 14000,
+        "descripcion": "Fritas al momento con salsa soya dulce."
+      }
+    ],
+    "postres": [
+      {
+        "nombre": "Cheesecake de maracuyá",
+        "precio": 15500,
+        "descripcion": "Cremoso con base crocante."
+      }
+    ]
+  }
+}

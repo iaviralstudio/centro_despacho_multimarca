@@ -1,32 +1,44 @@
-// script.js
-document.addEventListener('DOMContentLoaded', () => {
-  fetch('cartas_multimarca_medellin.json')
-    .then(response => response.json())
-    .then(data => {
-      const container = document.getElementById('menu-container');
 
-      data.marcas.forEach(marca => {
-        const section = document.createElement('section');
-        section.innerHTML = `
-          <h2>${marca.nombre}</h2>
-          <h3>Platos principales</h3>
-          <ul>
-            ${marca.platos.map(p => `<li><strong>${p.nombre}</strong> - ${p.precio}<br>${p.descripcion}</li>`).join('')}
-          </ul>
-          <h3>Acompañamientos</h3>
-          <ul>
-            ${marca.acompañamientos.map(a => `<li><strong>${a.nombre}</strong> - ${a.precio}<br>${a.descripcion}</li>`).join('')}
-          </ul>
-          <h3>Postres</h3>
-          <ul>
-            ${marca.postres.map(p => `<li><strong>${p.nombre}</strong> - ${p.precio}<br>${p.descripcion}</li>`).join('')}
-          </ul>
-          <hr>
-        `;
-        container.appendChild(section);
-      });
-    })
-    .catch(err => {
-      console.error("Error al cargar el JSON:", err);
+async function cargarMenu() {
+  try {
+    const response = await fetch('menu_data.json');
+    const data = await response.json();
+
+    const secciones = ['urbanSushi', 'smashBurgers', 'greenBowls'];
+
+    secciones.forEach(seccion => {
+      const contenedor = document.getElementById(seccion);
+      if (!contenedor) return;
+
+      const marca = data[seccion];
+      contenedor.innerHTML = `
+        <h2>${marca.nombre}</h2>
+        <h3>Platos</h3>
+        ${marca.platos.map(plato => `
+          <div class="plato">
+            <h4>${plato.nombre} - $${plato.precio}</h4>
+            <p>${plato.descripcion}</p>
+          </div>
+        `).join('')}
+        <h3>Acompañamientos</h3>
+        ${marca.acompañamientos.map(item => `
+          <div class="acompañamiento">
+            <strong>${item.nombre} - $${item.precio}</strong>
+            <p>${item.descripcion}</p>
+          </div>
+        `).join('')}
+        <h3>Postres</h3>
+        ${marca.postres.map(postre => `
+          <div class="postre">
+            <strong>${postre.nombre} - $${postre.precio}</strong>
+            <p>${postre.descripcion}</p>
+          </div>
+        `).join('')}
+      `;
     });
-});
+  } catch (error) {
+    console.error('Error al cargar el menú:', error);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', cargarMenu);
