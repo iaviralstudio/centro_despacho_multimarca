@@ -1,0 +1,33 @@
+
+{
+  "Urban Sushi": [
+    {
+      "nombre": "Sushi Roll Clásico",
+      "descripcion": "Delicioso rollo de salmón, aguacate y arroz.",
+      "precio": "24.000",
+      "imagen": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092"
+    },
+    {
+      "nombre": "Sushi Mixto Especial",
+      "descripcion": "Mezcla de mariscos frescos en tempura.",
+      "precio": "32.000",
+      "imagen": "https://images.unsplash.com/photo-1598514982901-47b1f6c8b00d"
+    }
+  ],
+  "Green Bowls & Power": [
+    {
+      "nombre": "Bowl Vegano",
+      "descripcion": "Quinoa, tofu, kale, hummus y vegetales al vapor.",
+      "precio": "28.000",
+      "imagen": "https://images.unsplash.com/photo-1605477502348-78ad75ba58b0"
+    }
+  ],
+  "Smash & Crispy Burgers": [
+    {
+      "nombre": "Crispy Doble Queso",
+      "descripcion": "Doble carne smash, queso cheddar, cebolla crujiente.",
+      "precio": "30.000",
+      "imagen": "https://images.unsplash.com/photo-1550547660-d9450f859349"
+    }
+  ]
+}
