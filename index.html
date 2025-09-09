@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magneta Kitch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>🔥 Bienvenido a <span class="highlight">Magneta Kitch</span> 🔥</h1>
+        <p>Donde las marcas de comida más explosivas se unen para conquistar tu paladar</p>
+    </header>
+
+    <section class="brand-selector">
+        <div class="brand-card" onclick="showMenu('urbanSushi')">
+            <img src="urban_sushi.jpg" alt="Urban Sushi">
+            <h2>Urban Sushi</h2>
+        </div>
+        <div class="brand-card" onclick="showMenu('magnetaRise')">
+            <img src="magneta_rise.jpg" alt="Magneta Rise & Noodles">
+            <h2>Magneta Rise & Noodles</h2>
+        </div>
+        <div class="brand-card" onclick="showMenu('smashCrispy')">
+            <img src="smash_burgers.jpg" alt="Smash & Crispy Burgers">
+            <h2>Smash & Crispy Burgers</h2>
+        </div>
+    </section>
+
+    <section id="menu-section" class="menu"></section>
+
+    <section id="cart-section" class="cart">
+        <h2>🛒 Tu Pedido</h2>
+        <ul id="cart-list"></ul>
+        <button onclick="sendToWhatsApp()">Enviar pedido vía WhatsApp</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
