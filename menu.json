@@ -1,0 +1,49 @@
+{
+  "menus": [
+    {
+      "marca": "Urban Sushi",
+      "items": [
+        {
+          "nombre": "Roll Dragón",
+          "precio": 48000,
+          "descripcion": "Roll con langostino tempura, aguacate y salsa de anguila."
+        },
+        {
+          "nombre": "Nigiri de salmón flambeado",
+          "precio": 37000,
+          "descripcion": "Salmón fresco flameado al momento sobre arroz avinagrado."
+        }
+      ]
+    },
+    {
+      "marca": "Smash & Crispy",
+      "items": [
+        {
+          "nombre": "Smash Burger Clásica",
+          "precio": 32000,
+          "descripcion": "Doble carne smash, queso cheddar, pepinillos y pan brioche."
+        },
+        {
+          "nombre": "Costillas BBQ San Luis",
+          "precio": 60000,
+          "descripcion": "Costillas de cerdo cocidas lentamente con salsa BBQ artesanal."
+        }
+      ]
+    },
+    {
+      "marca": "Green Bowls & Power",
+      "items": [
+        {
+          "nombre": "Bowl Vietnamita de Orellanas",
+          "precio": 38000,
+          "descripcion": "Mezcla de vegetales frescos, orellanas salteadas y salsa de maní."
+        },
+        {
+          "nombre": "Bowl Coreano de Tofu",
+          "precio": 34000,
+          "descripcion": "Tofu grillado con kimchi y arroz jazmín."
+        }
+      ]
+    }
+  ]
+}
